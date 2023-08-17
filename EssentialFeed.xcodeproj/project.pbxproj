@@ -11,6 +11,7 @@
 		7A418EC62A8E06490013F47D /* EssentialFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A418EC52A8E06490013F47D /* EssentialFeedTests.swift */; };
 		7A418EC72A8E06490013F47D /* EssentialFeed.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A418EBB2A8E06490013F47D /* EssentialFeed.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A418ED12A8E07E90013F47D /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A418ED02A8E07E90013F47D /* FeedItem.swift */; };
+		7A418ED42A8E08BB0013F47D /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A418ED32A8E08BB0013F47D /* FeedLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		7A418EC02A8E06490013F47D /* EssentialFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A418EC52A8E06490013F47D /* EssentialFeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialFeedTests.swift; sourceTree = "<group>"; };
 		7A418ED02A8E07E90013F47D /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
+		7A418ED32A8E08BB0013F47D /* FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		7A418EAE2A8E06490013F47D = {
 			isa = PBXGroup;
 			children = (
+				7A418ED32A8E08BB0013F47D /* FeedLoader.swift */,
 				7A418EBA2A8E06490013F47D /* EssentialFeed */,
 				7A418EC42A8E06490013F47D /* EssentialFeedTests */,
 				7A418EB92A8E06490013F47D /* Products */,
@@ -195,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A418ED42A8E08BB0013F47D /* FeedLoader.swift in Sources */,
 				7A418ED12A8E07E90013F47D /* FeedItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
