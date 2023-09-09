@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A30100A2AACB9C000EC69C0 /* XCTestCaseMemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3010092AACB9C000EC69C0 /* XCTestCaseMemoryLeakTracking.swift */; };
 		7A418EC12A8E06490013F47D /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A418EB82A8E06490013F47D /* EssentialFeed.framework */; };
 		7A418EC62A8E06490013F47D /* EssentialFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A418EC52A8E06490013F47D /* EssentialFeedTests.swift */; };
 		7A418EC72A8E06490013F47D /* EssentialFeed.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A418EBB2A8E06490013F47D /* EssentialFeed.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A3010092AACB9C000EC69C0 /* XCTestCaseMemoryLeakTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestCaseMemoryLeakTracking.swift; sourceTree = "<group>"; };
 		7A418EB82A8E06490013F47D /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A418EBB2A8E06490013F47D /* EssentialFeed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EssentialFeed.h; sourceTree = "<group>"; };
 		7A418EC02A8E06490013F47D /* EssentialFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,6 +64,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A3010072AACB97700EC69C0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7A3010092AACB9C000EC69C0 /* XCTestCaseMemoryLeakTracking.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		7A418EAE2A8E06490013F47D = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +131,7 @@
 		7AB2D1A52AA34AB2007832DF /* Feed API */ = {
 			isa = PBXGroup;
 			children = (
+				7A3010072AACB97700EC69C0 /* Helpers */,
 				7A584B282A8E0DD500CB721F /* RemoteFeedLoaderTests.swift */,
 				7AD024E32AA479CE00C07B74 /* URLSessionHTTPClientTests.swift */,
 			);
@@ -250,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A584B292A8E0DD500CB721F /* RemoteFeedLoaderTests.swift in Sources */,
+				7A30100A2AACB9C000EC69C0 /* XCTestCaseMemoryLeakTracking.swift in Sources */,
 				7AD024E42AA479CE00C07B74 /* URLSessionHTTPClientTests.swift in Sources */,
 				7A418EC62A8E06490013F47D /* EssentialFeedTests.swift in Sources */,
 			);
